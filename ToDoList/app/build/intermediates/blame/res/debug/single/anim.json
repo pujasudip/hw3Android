@@ -1,66 +1,66 @@
 [
     {
-        "merged": "/Users/mark/Desktop/AndroidClass/inclass/ToDoList/app/build/intermediates/res/merged/debug/anim/design_snackbar_out.xml",
-        "source": "/Users/mark/.android/build-cache/714aa8b7bc8b4e35519217c99868c9466b53b607/output/res/anim/design_snackbar_out.xml"
+        "merged": "/Users/pujasudip/Desktop/markMat/Android-Class-Examples/ToDoList/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
+        "source": "/Users/pujasudip/.android/build-cache/4889702924dccc97bd777bfe1477529b3c9af14f/output/res/anim/abc_popup_exit.xml"
     },
     {
-        "merged": "/Users/mark/Desktop/AndroidClass/inclass/ToDoList/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
-        "source": "/Users/mark/.android/build-cache/2a6a6a5de6a804c20361c7f28f51f634b6a0aa9c/output/res/anim/abc_slide_in_top.xml"
+        "merged": "/Users/pujasudip/Desktop/markMat/Android-Class-Examples/ToDoList/app/build/intermediates/res/merged/debug/anim/design_snackbar_in.xml",
+        "source": "/Users/pujasudip/.android/build-cache/76e578c90f0943e1ff0e60e3baaa896921c88e64/output/res/anim/design_snackbar_in.xml"
     },
     {
-        "merged": "/Users/mark/Desktop/AndroidClass/inclass/ToDoList/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
-        "source": "/Users/mark/.android/build-cache/2a6a6a5de6a804c20361c7f28f51f634b6a0aa9c/output/res/anim/abc_slide_out_bottom.xml"
+        "merged": "/Users/pujasudip/Desktop/markMat/Android-Class-Examples/ToDoList/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
+        "source": "/Users/pujasudip/.android/build-cache/4889702924dccc97bd777bfe1477529b3c9af14f/output/res/anim/abc_fade_out.xml"
     },
     {
-        "merged": "/Users/mark/Desktop/AndroidClass/inclass/ToDoList/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
-        "source": "/Users/mark/.android/build-cache/2a6a6a5de6a804c20361c7f28f51f634b6a0aa9c/output/res/anim/abc_slide_in_bottom.xml"
+        "merged": "/Users/pujasudip/Desktop/markMat/Android-Class-Examples/ToDoList/app/build/intermediates/res/merged/debug/anim/design_bottom_sheet_slide_out.xml",
+        "source": "/Users/pujasudip/.android/build-cache/76e578c90f0943e1ff0e60e3baaa896921c88e64/output/res/anim/design_bottom_sheet_slide_out.xml"
     },
     {
-        "merged": "/Users/mark/Desktop/AndroidClass/inclass/ToDoList/app/build/intermediates/res/merged/debug/anim/design_snackbar_in.xml",
-        "source": "/Users/mark/.android/build-cache/714aa8b7bc8b4e35519217c99868c9466b53b607/output/res/anim/design_snackbar_in.xml"
+        "merged": "/Users/pujasudip/Desktop/markMat/Android-Class-Examples/ToDoList/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/pujasudip/.android/build-cache/4889702924dccc97bd777bfe1477529b3c9af14f/output/res/anim/abc_slide_out_bottom.xml"
     },
     {
-        "merged": "/Users/mark/Desktop/AndroidClass/inclass/ToDoList/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
-        "source": "/Users/mark/.android/build-cache/2a6a6a5de6a804c20361c7f28f51f634b6a0aa9c/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
+        "merged": "/Users/pujasudip/Desktop/markMat/Android-Class-Examples/ToDoList/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
+        "source": "/Users/pujasudip/.android/build-cache/4889702924dccc97bd777bfe1477529b3c9af14f/output/res/anim/abc_fade_in.xml"
     },
     {
-        "merged": "/Users/mark/Desktop/AndroidClass/inclass/ToDoList/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
-        "source": "/Users/mark/.android/build-cache/2a6a6a5de6a804c20361c7f28f51f634b6a0aa9c/output/res/anim/abc_popup_enter.xml"
+        "merged": "/Users/pujasudip/Desktop/markMat/Android-Class-Examples/ToDoList/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/pujasudip/.android/build-cache/4889702924dccc97bd777bfe1477529b3c9af14f/output/res/anim/abc_grow_fade_in_from_bottom.xml"
     },
     {
-        "merged": "/Users/mark/Desktop/AndroidClass/inclass/ToDoList/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
-        "source": "/Users/mark/.android/build-cache/2a6a6a5de6a804c20361c7f28f51f634b6a0aa9c/output/res/anim/abc_grow_fade_in_from_bottom.xml"
+        "merged": "/Users/pujasudip/Desktop/markMat/Android-Class-Examples/ToDoList/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
+        "source": "/Users/pujasudip/.android/build-cache/4889702924dccc97bd777bfe1477529b3c9af14f/output/res/anim/abc_popup_enter.xml"
     },
     {
-        "merged": "/Users/mark/Desktop/AndroidClass/inclass/ToDoList/app/build/intermediates/res/merged/debug/anim/design_fab_in.xml",
-        "source": "/Users/mark/.android/build-cache/714aa8b7bc8b4e35519217c99868c9466b53b607/output/res/anim/design_fab_in.xml"
+        "merged": "/Users/pujasudip/Desktop/markMat/Android-Class-Examples/ToDoList/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
+        "source": "/Users/pujasudip/.android/build-cache/4889702924dccc97bd777bfe1477529b3c9af14f/output/res/anim/abc_slide_in_top.xml"
     },
     {
-        "merged": "/Users/mark/Desktop/AndroidClass/inclass/ToDoList/app/build/intermediates/res/merged/debug/anim/design_fab_out.xml",
-        "source": "/Users/mark/.android/build-cache/714aa8b7bc8b4e35519217c99868c9466b53b607/output/res/anim/design_fab_out.xml"
+        "merged": "/Users/pujasudip/Desktop/markMat/Android-Class-Examples/ToDoList/app/build/intermediates/res/merged/debug/anim/design_snackbar_out.xml",
+        "source": "/Users/pujasudip/.android/build-cache/76e578c90f0943e1ff0e60e3baaa896921c88e64/output/res/anim/design_snackbar_out.xml"
     },
     {
-        "merged": "/Users/mark/Desktop/AndroidClass/inclass/ToDoList/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
-        "source": "/Users/mark/.android/build-cache/2a6a6a5de6a804c20361c7f28f51f634b6a0aa9c/output/res/anim/abc_fade_in.xml"
+        "merged": "/Users/pujasudip/Desktop/markMat/Android-Class-Examples/ToDoList/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/pujasudip/.android/build-cache/4889702924dccc97bd777bfe1477529b3c9af14f/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
     },
     {
-        "merged": "/Users/mark/Desktop/AndroidClass/inclass/ToDoList/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
-        "source": "/Users/mark/.android/build-cache/2a6a6a5de6a804c20361c7f28f51f634b6a0aa9c/output/res/anim/abc_popup_exit.xml"
+        "merged": "/Users/pujasudip/Desktop/markMat/Android-Class-Examples/ToDoList/app/build/intermediates/res/merged/debug/anim/design_bottom_sheet_slide_in.xml",
+        "source": "/Users/pujasudip/.android/build-cache/76e578c90f0943e1ff0e60e3baaa896921c88e64/output/res/anim/design_bottom_sheet_slide_in.xml"
     },
     {
-        "merged": "/Users/mark/Desktop/AndroidClass/inclass/ToDoList/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
-        "source": "/Users/mark/.android/build-cache/2a6a6a5de6a804c20361c7f28f51f634b6a0aa9c/output/res/anim/abc_slide_out_top.xml"
+        "merged": "/Users/pujasudip/Desktop/markMat/Android-Class-Examples/ToDoList/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
+        "source": "/Users/pujasudip/.android/build-cache/4889702924dccc97bd777bfe1477529b3c9af14f/output/res/anim/abc_slide_out_top.xml"
     },
     {
-        "merged": "/Users/mark/Desktop/AndroidClass/inclass/ToDoList/app/build/intermediates/res/merged/debug/anim/design_bottom_sheet_slide_in.xml",
-        "source": "/Users/mark/.android/build-cache/714aa8b7bc8b4e35519217c99868c9466b53b607/output/res/anim/design_bottom_sheet_slide_in.xml"
+        "merged": "/Users/pujasudip/Desktop/markMat/Android-Class-Examples/ToDoList/app/build/intermediates/res/merged/debug/anim/design_fab_in.xml",
+        "source": "/Users/pujasudip/.android/build-cache/76e578c90f0943e1ff0e60e3baaa896921c88e64/output/res/anim/design_fab_in.xml"
     },
     {
-        "merged": "/Users/mark/Desktop/AndroidClass/inclass/ToDoList/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
-        "source": "/Users/mark/.android/build-cache/2a6a6a5de6a804c20361c7f28f51f634b6a0aa9c/output/res/anim/abc_fade_out.xml"
+        "merged": "/Users/pujasudip/Desktop/markMat/Android-Class-Examples/ToDoList/app/build/intermediates/res/merged/debug/anim/design_fab_out.xml",
+        "source": "/Users/pujasudip/.android/build-cache/76e578c90f0943e1ff0e60e3baaa896921c88e64/output/res/anim/design_fab_out.xml"
     },
     {
-        "merged": "/Users/mark/Desktop/AndroidClass/inclass/ToDoList/app/build/intermediates/res/merged/debug/anim/design_bottom_sheet_slide_out.xml",
-        "source": "/Users/mark/.android/build-cache/714aa8b7bc8b4e35519217c99868c9466b53b607/output/res/anim/design_bottom_sheet_slide_out.xml"
+        "merged": "/Users/pujasudip/Desktop/markMat/Android-Class-Examples/ToDoList/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/pujasudip/.android/build-cache/4889702924dccc97bd777bfe1477529b3c9af14f/output/res/anim/abc_slide_in_bottom.xml"
     }
 ]
