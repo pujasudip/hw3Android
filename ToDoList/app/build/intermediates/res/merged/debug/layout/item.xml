@@ -24,7 +24,7 @@
                 android:layout_height="wrap_content"
                 android:text="To do description"
                 android:textColor="@android:color/holo_blue_dark"
-                android:textSize="30sp" />
+                android:textSize="23sp" />
 
             <TextView
                 android:id="@+id/category"
@@ -32,7 +32,7 @@
                 android:layout_height="wrap_content"
                 android:text="To do category"
                 android:textColor="@android:color/holo_green_dark"
-                android:textSize="20dp" />
+                android:textSize="18dp" />
 
             <TextView
                 android:id="@+id/dueDate"

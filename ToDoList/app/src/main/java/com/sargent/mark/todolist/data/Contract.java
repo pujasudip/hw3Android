@@ -12,10 +12,10 @@ public class Contract {
         public static final String TABLE_NAME = "todoitems";
 
         public static final String COLUMN_NAME_DESCRIPTION = "description";
-        //added category for differentiating diffrent work
+        //added category for differentiating diffrent types of todos
         public static final String COLUMN_NAME_CATEGORY = "category";
         public static final String COLUMN_NAME_DUE_DATE = "duedate";
-        //status impplies the status of the work - done or pending
+        //status implies the status of the work - done or pending
         public static final String COLUMN_STATUS = "status";
     }
 }

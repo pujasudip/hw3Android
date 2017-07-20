@@ -4,7 +4,7 @@ package com.sargent.mark.todolist.data;
  * Created by mark on 7/4/17.
  */
 
-//added category and status variable alongwith getters and setters.
+//added category and status variable along with getters and setters.
 public class ToDoItem {
     private String description;
     private String category;

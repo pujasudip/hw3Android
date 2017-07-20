@@ -46,11 +46,11 @@ public class AddToDoFragment extends DialogFragment{
         toDo = (EditText) view.findViewById(R.id.toDo);
         dp = (DatePicker) view.findViewById(R.id.datePicker);
         add = (Button) view.findViewById(R.id.add);
-        //got spinner id from xml
+        //got spinner from xml
         spinner = (Spinner) view.findViewById(R.id.spn_todolist);
 
         Context context = getContext();
-
+// made an array adapter to set the array of category made in strings res to put in dropdown menu list
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(context, R.array.todoArray, android.R.layout.simple_spinner_dropdown_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinner.setAdapter(adapter);

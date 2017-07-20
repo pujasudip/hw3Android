@@ -69,10 +69,10 @@ public class ToDoListAdapter extends RecyclerView.Adapter<ToDoListAdapter.ItemHo
     }
 
     class ItemHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
-        //String of category and status is retrieved from the cursor and assigned to these variable
         TextView descr;
         TextView cate;
         TextView due;
+        //String of category and status is retrieved from the cursor and assigned to these variable
         TextView sta;
         String category;
         String duedate;
@@ -98,7 +98,9 @@ public class ToDoListAdapter extends RecyclerView.Adapter<ToDoListAdapter.ItemHo
 
             duedate = cursor.getString(cursor.getColumnIndex(Contract.TABLE_TODO.COLUMN_NAME_DUE_DATE));
             description = cursor.getString(cursor.getColumnIndex(Contract.TABLE_TODO.COLUMN_NAME_DESCRIPTION));
+            //cursor will assigned the value to the category of the currently pointed row
             category = cursor.getString(cursor.getColumnIndex(Contract.TABLE_TODO.COLUMN_NAME_CATEGORY));
+            //cursor will assingned the value to the category of the currently pointed row
             status = cursor.getString(cursor.getColumnIndex(Contract.TABLE_TODO.COLUMN_STATUS));
             Log.d(TAG, "status: " + status);
             Log.d(TAG, "t/f: " + (status=="Done"));
@@ -122,14 +124,17 @@ public class ToDoListAdapter extends RecyclerView.Adapter<ToDoListAdapter.ItemHo
                 sta.setText("Pending");
             }
 
-            //checkbox is set to clicklistener so user can update the list if it is done
+            //checkbox is set to clicklistener so user can update the list if it is been its been intended for some change
             cb.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
+//updateTodoList is update on the basis of checkbox boolean and inserted in database as done or pending
 
+                    //object of dbhelper is referenced grabbing the context
                     DBHelper helper = new DBHelper(v.getContext());
+                    //variable of SQLiteDAtabase if created to handle write-ablity
                     SQLiteDatabase db = helper.getWritableDatabase();
-                    MainActivity.updateTodoStatus(db, id, cb.isChecked());
+                    MainActivity.updateTodoList(db, id, cb.isChecked());
                 }
             });
             holder.itemView.setTag(id);

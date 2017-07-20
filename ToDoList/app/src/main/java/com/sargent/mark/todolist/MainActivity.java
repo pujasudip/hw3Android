@@ -46,6 +46,7 @@ public class MainActivity extends AppCompatActivity implements AddToDoFragment.O
     private TextView mTvSelectedList, mTvStatus;
     private final static String TAG = "mainactivity";
     private String mDisplay = null;
+    //checkbox for the purpose of indicating work done or not
     private CheckBox mCbStatus;
 
     @Override
@@ -149,6 +150,7 @@ public class MainActivity extends AppCompatActivity implements AddToDoFragment.O
     private long addToDo(SQLiteDatabase db, String description, String category, String duedate) {
         ContentValues cv = new ContentValues();
         cv.put(Contract.TABLE_TODO.COLUMN_NAME_DESCRIPTION, description);
+        //category added to get the input from the dialog
         cv.put(Contract.TABLE_TODO.COLUMN_NAME_CATEGORY, category);
         cv.put(Contract.TABLE_TODO.COLUMN_NAME_DUE_DATE, duedate);
         return db.insert(Contract.TABLE_TODO.TABLE_NAME, null, cv);
@@ -166,6 +168,7 @@ public class MainActivity extends AppCompatActivity implements AddToDoFragment.O
 
         ContentValues cv = new ContentValues();
         cv.put(Contract.TABLE_TODO.COLUMN_NAME_DESCRIPTION, description);
+        //updating portion of the dialog prompt now with category
         cv.put(Contract.TABLE_TODO.COLUMN_NAME_CATEGORY, category);
         cv.put(Contract.TABLE_TODO.COLUMN_NAME_DUE_DATE, duedate);
         return db.update(Contract.TABLE_TODO.TABLE_NAME, cv, Contract.TABLE_TODO._ID + "=" + id, null);
@@ -177,12 +180,14 @@ public class MainActivity extends AppCompatActivity implements AddToDoFragment.O
         adapter.swapCursor(getAllItems(db));
     }
 //made on method to update the database if the checkbox is checked or unchecked
-    public static int updateTodoStatus(SQLiteDatabase db, long id, boolean isChecked) {
+    public static int updateTodoList(SQLiteDatabase db, long id, boolean isChecked) {
         ContentValues cv = new ContentValues();
         Log.d(TAG, "chk:" + isChecked);
         if (isChecked) {
+            //column with status will be upated to done if simultaneous checkbox is checked
             cv.put(Contract.TABLE_TODO.COLUMN_STATUS, "Done");
         } else {
+            //column with status will be upated to done if simultaneous checkbox is checked
             cv.put(Contract.TABLE_TODO.COLUMN_STATUS, "Pending");
         }
 
@@ -199,16 +204,19 @@ public class MainActivity extends AppCompatActivity implements AddToDoFragment.O
 //selected item from the menu is set on textview to notify the user which list is under that category
     @Override
     public boolean onOptionsItemSelected(MenuItem item){
+        //All is default which shows all the to do -s
         if(item.toString().equals("All")){
             mDisplay = null;
             mTvSelectedList.setText(item.toString());
             onStart();
         }
         else{
+            //else it gets the string from the selection and displays the list accrodingly
             mDisplay = "category = " + "'" + item.toString() + "'";
             mTvSelectedList.setText(item.toString());
             onStart();
         }
         return super.onOptionsItemSelected(item);
     }
+
 }

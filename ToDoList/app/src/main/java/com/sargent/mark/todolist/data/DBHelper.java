@@ -32,7 +32,7 @@ public class DBHelper extends SQLiteOpenHelper{
         Log.d(TAG, "test" + queryString);
         db.execSQL(queryString);
     }
-
+//if the version changes this should run to drop the table and create a new one with changed columns
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
         db.execSQL("drop table " + Contract.TABLE_TODO.TABLE_NAME + " if exists;");
